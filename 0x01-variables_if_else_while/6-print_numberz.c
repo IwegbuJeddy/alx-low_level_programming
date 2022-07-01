@@ -12,8 +12,9 @@ int main(void)
 {
 int i = 0;
 do {
-putchar("%d\n", i);
+putchar("%d", i);
 ++i;
 } while (i != 10);
+putchar("\n")
 return (0);
 }
