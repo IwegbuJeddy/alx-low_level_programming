@@ -14,6 +14,6 @@ int i = 0;
 do {
 printf("%d", i);
 ++i;
-} while (i < 10);
+} while (n != 10);
 return (0);
 }
