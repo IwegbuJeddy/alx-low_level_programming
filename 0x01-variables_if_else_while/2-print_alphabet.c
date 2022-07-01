@@ -20,8 +20,7 @@ do {
 putchar(letter);
 letter++;
 n--;
-}
-while (n != 0);
+}while (n != 0);
 {
 putchar('\n');
 }
