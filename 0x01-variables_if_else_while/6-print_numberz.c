@@ -11,10 +11,10 @@
 int main(void)
 {
 int i = 0;
-do {
+for (; i < 10; ++i)
+{
 putchar(i);
-++i;
-} while (i != 10);
+}
 putchar('\n');
 return (0);
 }
