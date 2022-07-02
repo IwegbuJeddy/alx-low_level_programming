@@ -8,14 +8,14 @@
 int main(void)
 {
 int num;
-char let;
+char let = 'a';
 do {
 putchar(num);
 ++num;
 } while (num < 10);
 do {
 putchar (let);
-} while (let > 'a' && let <= 'f');
+} while (let >= 'a' && let <= 'f');
 putchar('\n');
 return (0);
 }
