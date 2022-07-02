@@ -8,14 +8,15 @@
 int main(void)
 {
 int num;
-char let = 'a';
-do {
+char let;
+for (num = 0; num < 10; ++num)
+{
 putchar(num);
-++num;
-} while (num < 10);
-do {
-putchar (let);
-} while (let >= 'a' && let <= 'f');
+}
+for (let = 'a'; let <= 'f'; ++let)
+{
+putchar(let);
+}
 putchar('\n');
 return (0);
 }
