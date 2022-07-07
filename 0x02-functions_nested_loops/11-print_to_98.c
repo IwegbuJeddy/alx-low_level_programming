@@ -1,26 +1,33 @@
 #include <stdio.h>
+#include "main.h"
 /**
-* print_to_98 - prints numbers to 98
-* @n : Starting integer
-* Description : Prints numbers from n to 98
-* Return:void
+ * print_to_98 - Check Holberton
+ * @n: A input integer
+ * Description: function that prints all natural numbers
+ * from n to 98, followed by a new line.
 */
 void print_to_98(int n)
 {
-if (n < 98)
+if (n <= 98)
 {
-while (n < 98)
+for (; n <= 98; n++)
 {
-printf("%d ", n);
-n++;
+printf("%d", n);
+if (n == 98)
+continue;
+printf(", ");
 }
+printf("\n");
 }
-else if (n > 98)
+else
 {
-while (n < 98)
+for (; n >= 98; n--)
 {
-printf("%d ", n);
-n--;
+printf("%d", n);
+if (n == 98)
+continue;
+printf(", ");
 }
+printf("\n");
 }
 }
