@@ -1,5 +1,13 @@
 #include "main.h"
-int add(int a, int b){
+/**
+ * add - add two numbers from input
+ * @a: first aparamet
+ * @b: second parameter
+ * Description: adds two numbers
+ * Return: Always (0).
+*/
+int add(int a, int b)
+{
 int c;
 c = a + b;
 return (c);
