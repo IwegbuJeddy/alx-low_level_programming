@@ -1,9 +1,6 @@
 #include "main.h"
-
 int add(int a, int b){
 int c;
 c = a + b;
-return c;
-}
-return (0);
+return (c);
 }
